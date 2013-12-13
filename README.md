@@ -8,7 +8,7 @@ Code Exercise
 ```
 *The amount will be converted into a string representation*
 
-```ruby
+```
 “Two thousand five hundred twenty-three and 04/100 dollars”
 ```
 
