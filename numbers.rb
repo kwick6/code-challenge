@@ -65,6 +65,8 @@ end
 
  # Split input on decimal point and select the amount the right of the decimal
  cents = money.to_s.split(".")[1]
+ cents = (input ||= "").empty? ? "00" : input
+
 
  # Create string combining the results, capitalize first letter, and show results
  raw_string = "#{wordify number} and #{cents}/100 dollars"
